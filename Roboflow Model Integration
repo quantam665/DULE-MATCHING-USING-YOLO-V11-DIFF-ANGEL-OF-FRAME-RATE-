@@ -1,0 +1,9 @@
+# Model 1
+rf1 = Roboflow(api_key="...")
+project1 = rf1.workspace("...").project("...")
+version1 = project1.version(X)
+
+# Model 2
+rf2 = Roboflow(api_key="...")
+project2 = rf2.workspace("...").project("...")
+version2 = project2.version(Y)
